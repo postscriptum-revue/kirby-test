@@ -1,0 +1,38 @@
+title: Article
+create:
+  title:
+    label: Titre de l'article
+tabs:
+  details:
+    label: Détails de l'article
+    columns:
+      left:
+        width: 2/3
+        fields:
+          subtitle:
+            type: text
+            label: Sous-titre
+          summaryFr:
+            type: writer
+            label: Résumé (fr)
+          summaryEn:
+            type: writer
+            label: Résumé (en)
+      right:
+        width: 1/3
+        fields:
+          authorName:
+            type: text
+            label: Nom de l'auteur·rice
+          authorAffiliation:
+            type: tags
+            label: Affiliation
+          keywords:
+            type: tags
+            label: Mots clés
+  text:
+    label: Texte de l'article
+    fields:
+      text:
+        label: Texte
+        type: blocks

@@ -1,0 +1,8 @@
+title: Site
+
+sections:
+  pages:
+    label: Parutions
+    type: pages
+    info: "№{{ page.number }}"
+    templates: parution
